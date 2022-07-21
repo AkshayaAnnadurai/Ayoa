@@ -1,0 +1,110 @@
+#Footer {
+    height: 500px;
+    width: 100%;
+    /* border: solid 2px green; */
+    display: flex;
+
+
+}
+
+#FT {
+    background-color: black;
+}
+
+#Footer .FC {
+    width: 30%;
+    /* border: 3px solid purple; */
+    text-align: left;
+    line-height: 100%;
+    background-color: black;
+
+}
+
+.h1 {
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+}
+
+.FC p {
+    font-size: 14px;
+    color: white;
+}
+
+.img1 {
+    background-color: black;
+    width: 20%;
+}
+
+.img2 {
+    width: 10%;
+    background-color: black;
+
+}
+
+.img3 {
+    width: 5%;
+    background-color: black;
+
+}
+
+.img4 {
+    width: 13%;
+    background-color: black;
+
+}
+
+#imglogo {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid brown; */
+    display: flex;
+    background-color: black;
+    gap: 50px;
+    border-bottom: 0.5px solid grey;
+    /* margin-top: -40px; */
+}
+
+.logo {
+    background-color: black;
+    width: 20%;
+}
+
+#logo {
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    background-color: black;
+    margin-top: 50px;
+
+
+}
+
+#social {
+    background-color: black;
+    width: 50%;
+    /* border: 3px solid rgb(143, 20, 40)(164, 51, 70); */
+
+
+}
+
+#logo1>img {
+    padding-left: 50px;
+}
+
+#social>img {
+    padding-left: 50px;
+}
+
+#logo1 {
+    justify-content: center;
+    gap: 100px;
+    width: 50%;
+    /* border: 3px solid blue; */
+}
+
+#id {
+    border-right: 2px solid grey;
+    padding-right: 40px;
+}

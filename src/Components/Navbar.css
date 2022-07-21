@@ -1,0 +1,41 @@
+#Navbar {
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    border: solid 2px red;
+}
+
+#Logo {
+    width: 13%;
+    margin-top: 25px;
+
+}
+
+#Right {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 800px;
+    margin-top: -50px;
+}
+
+#Right .h4 {
+    font-weight: lighter;
+}
+
+#btn1 {
+    padding: 0px 25px 0px 25px;
+    border-radius: 600px;
+    font-size: 16px;
+    font-weight: lighter;
+    border: solid 0.5px gray;
+}
+
+#btn1:hover {
+    border-color: rgb(79, 182, 245);
+    cursor: pointer;
+}
+
+.h4:hover {
+    color: rgb(79, 182, 245);
+    cursor: pointer;
+}
