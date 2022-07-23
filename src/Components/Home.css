@@ -19,18 +19,35 @@
 }
 
 .input {
-    padding: 20px;
+    /* padding: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border: none;
-    border-radius: 10px;
+    border-radius: 10px; */
+    padding:10px 50px 10px 50px;
+
+border: none;
+padding-right: 100px;
+font-size: larger;
+}
+#box{
+    width:500px;
+    align-items: center;
+    border: 5px solid lightblue;
+    margin: auto;
+    height: auto;
+   background-color: aliceblue;
+   border-radius: 20px;
+   padding: 10px;
+   justify-content: space-around;
 }
 
 #in {
     /* height: 100px; */
     /* width: 200px; */
+    display: flex;
     text-align: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    border: 2px solid yellow;
+    border: 2px solid aliceblue;
 }
 
 #btn {
@@ -59,8 +76,8 @@
 #cont2{
     width:100%;
     display:flex;
-    
-    border:1px solid red;
+    height: auto;
+   
 
 }
 #cont2>div{
@@ -93,8 +110,20 @@
     border-color: blue;
     color: blue;
 }
+#cont3>h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+#pa>p{
+    font-size: 20px;
+    font-weight: lighter;
+}
 #sp::before{
     color: brown;
+}
+#spb{
+    background-color:rgb(212, 14, 123);
+    color:white
 }
 #cont4{
     width:70%;
@@ -170,6 +199,7 @@ content: none;
     gap:10px
 }
 #cont6{
+    display: flex;
     text-align: left;
     padding-left: 50px;
     margin-left:50px ;
@@ -186,10 +216,20 @@ content: none;
     font-weight: bolder;
     width:50%;
 }
+#Ai{
+    color:white;
+    background-color: rgb(59, 167, 218);
+}
 #c62{
     width:70%;
     font-size: 20px;
     font-weight: lighter;
+}
+#c65{
+    width:50%;
+  
+    border:1px solid black;
+    margin-left: 100px;
 }
 #flex{
     display: flex;
@@ -243,7 +283,8 @@ align-items: center;
     display: flex;
     gap:15px;
    width:30%;
-   margin: auto;
+   margin:auto;
+   
 }
 #c81>h1{
     font-size: 32px;
@@ -255,22 +296,74 @@ align-items: center;
     height: 50px;
     margin-top: 27px;
 }
-#c88{
+#c82{
     width:500px;
+    align-items: center;
     border: 5px solid lightblue;
     margin: auto;
     height: auto;
    background-color: aliceblue;
+   border-radius: 20px;
+   padding: 10px;
+   justify-content: space-around;
 }
-#c82>input{
-padding: 20px;
+#c821>input{
+padding:10px 50px 10px 50px;
+
+border: none;
+padding-right: 100px;
+font-size: larger;
+
 }
-#c82>button{
+#c821>button{
     padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: none;
+    background-color: rgb(79, 182, 245);
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 10px;
 }
-#c82{
+#c821{
     background-color: white;
     width:55%;
+    display: flex;
+   justify-content: space-evenly;
+    border-radius: 20px;
+    margin: auto;
+}
+#spn{
+    width:80%;
+    border:1px solid red;
+    display: flex;
+    margin: auto;
+}
+#spn>div{
+width:30%;
+}
+#h{
+    color: white;
+}
+.spon{
+    width:60%;
+}
+#stars{
+    margin-top: 50px;
+}
+#lat>p{
+    color: white;
+  width:75%;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#lat{
+    width:50%;
+    margin: auto;
+    align-items: center;
+  
+}
+#new{
     display: flex;
 }
 

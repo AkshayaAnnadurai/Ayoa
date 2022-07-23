@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Home.css"
+
 function Home() {
+   
     return (
 
         <div >
@@ -10,10 +12,12 @@ function Home() {
                 <p className='p'>Try the world’s most visual productivity app. Supercharge thinking, planning and 
                learning with AI, mind maps, task boards and more</p>
                </div>
+               <div id="box">
                 <div id='in'>
 
                     <input className='input' type="text" placeholder='Enter your email' />
                     <button id='btn'>Get Started</button>
+                </div>
                 </div>
 
             </div>
@@ -41,11 +45,13 @@ function Home() {
             </div>
             <div id="cont2">
                 <div id="vid">
-                    <h1>Vid</h1>
-                    {/* <video> 
-                    <source src="https://www.ayoa.com/wp-content/uploads/2019/07/ayoa_webcut_video.mp4">
-                        </source>
-                    </video> */}
+                   
+                    <iframe  showinfo={0}
+    controls={0}
+    autohide={1}
+                    src="https://www.ayoa.com/wp-content/uploads/2019/07/ayoa_webcut_video.mp4" title="dex" >
+                       
+                        </iframe>
                 </div>
             <div id="secdiv">
                 <h1>See Ayoa in action</h1>
@@ -54,7 +60,7 @@ function Home() {
             </div>
             </div>
             <div id="cont3">
-<h2 id="sp">Unrivaled <span >flexibility</span></h2>
+<h1 id="sp">Unrivaled <span id="spb">flexibility</span></h1>
 <div id="pa">
 <p>Whether you’re brainstorming ideas, presenting in meetings, or managing tasks, Ayoa provides you with flexibility and intuitive working methods every step of the way.</p>
 </div>
@@ -110,10 +116,12 @@ function Home() {
                 <img id="phot" src="https://www.ayoa.com/wp-content/uploads/2021/03/Unrivaled_wb_new_webp_2.webp" alt="pc" />
                 </div>
             </div>
+           
             <div id="cont6">
+                <div >
                 <div id="c61">
              <h1>The world’s only
-mind maps with AI</h1>
+mind maps with <span id="Ai">AI</span></h1>
 </div>
 <div id="c62">
                 <p> 
@@ -151,7 +159,9 @@ Use one of the largest deep learning networks ever created to generate unique an
                     </div>
                
                </div>
-            </div>
+               </div>
+               </div>
+              
             <div id="cont7">
                 <div>
                     <img  id="im" src="https://www.ayoa.com/wp-content/uploads/2021/11/diverse_teams_ayoa-1024x862.webp" alt="pi" />
@@ -172,11 +182,45 @@ Use one of the largest deep learning networks ever created to generate unique an
                 <img id="lv"src="https://www.ayoa.com/wp-content/uploads/2019/11/ayoa_logo.png" alt="logo" />
                 <h1>today</h1>
                 </div>
-                <div id="c88">
                 <div id="c82">
+                <div id="c821">
                     <input type="email" placeholder='Enter your email' />
-                    <button>Get Started</button>
+                    <button>Get <span>Started</span></button>
                 </div>
+                </div>
+                <h1 id="h">Trusted by</h1>
+                <div id='spn'>
+                    <div>
+                        <img className="spon" src="https://www.ayoa.com/wp-content/uploads/2021/04/amazon_logo_new.png" alt="spn" />
+                    </div>
+                    <div>
+                    <img className="spon" src="https://www.ayoa.com/wp-content/uploads/2021/04/samsung_logo_new.png" alt="spn" />
+                    </div>
+                    <div>
+                    <img className="spon" src="https://www.ayoa.com/wp-content/uploads/2021/04/oracle_logo_new.png" alt="spn" />
+                    </div>
+                    <div>
+                    <img className="spon" src="https://www.ayoa.com/wp-content/uploads/2021/04/continental_logo_new.png" alt="spn" />
+                    </div>
+                    <div>
+                    <img className="spon" src="https://www.ayoa.com/wp-content/uploads/2021/04/salesforce_logo_new.png" alt="spn" />
+                    </div>
+                    <div>
+                    <img className="spon" src="https://www.ayoa.com/wp-content/uploads/2021/04/aetna_logo_new.png" alt="spn" />
+                    </div>
+                    <div>
+                    <img className="spon"
+                    src="https://www.ayoa.com/wp-content/uploads/2021/04/bbc_logo_new.png" alt="spn" />
+                    </div>
+
+                </div>
+                <div id="stars">
+                    <img src="https://www.ayoa.com/wp-content/uploads/2020/02/Stars.png" alt="star"/>
+                </div>
+                <div id="lat">
+                 <p>Average rating of 4.5 stars from 1,000+ reviews
+               across the Apple App Store, Google Play and Capterra</p>
+
                 </div>
             </div>
         </div>

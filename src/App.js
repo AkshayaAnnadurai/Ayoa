@@ -2,14 +2,19 @@
 import './App.css';
 import Footer from './Components/Footer';
 import Navbar from "./Components/Navbar";
-import Home from './Components/Home';
+// import Home from './Components/Home';
+import Router from './Components/AllRoutes';
+// import Kuttynav from './Components/inclusivity';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
+      <Router />
+   
       <Footer />
+
     </div>
   );
 }
