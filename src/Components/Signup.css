@@ -18,7 +18,7 @@ span{
   
     width:50%;
     height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-items: center;
     margin-left:40%;
 }
@@ -33,7 +33,7 @@ color:white
     display: flex;
     margin-left:40%;
     width:40%;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 #loginpath>button{
     padding: 5px;

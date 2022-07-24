@@ -64,13 +64,13 @@ font-size: larger;
     display:flex;
     width:70%;
     gap:20px;
-    border:1px solid red;
+    /* border:1px solid red; */
     text-align: center;
     margin: auto;
 }
 #cont>div{
     width:30%;
-    border:1px solid green;
+    /* border:1px solid green; */
 
 }
 #cont2{
@@ -82,7 +82,7 @@ font-size: larger;
 }
 #cont2>div{
     width:50%;
-    border:1px solid green;
+    /* border:1px solid green; */
 
 }
 #secdiv>h1{
@@ -130,11 +130,11 @@ font-size: larger;
     display:flex;
     margin: auto;
     align-items: center;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 #cont4>div{
     width:20%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
    
 }
 .imgg{
@@ -151,12 +151,12 @@ font-size: larger;
     display:flex;
     margin: auto;
     align-items: center;
-    border:1px solid red;
+    /* border:1px solid red; */
     margin-bottom: 50px;
 }
 #cont5>div{
     width:50%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 #phot{
     width:80%
@@ -204,7 +204,7 @@ content: none;
     padding-left: 50px;
     margin-left:50px ;
     width:60%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-color: rgb(221, 247, 247);
     height: auto;
     margin-bottom: 100px;
@@ -227,8 +227,8 @@ content: none;
 }
 #c65{
     width:50%;
-  
-    border:1px solid black;
+/*   
+    border:1px solid black; */
     margin-left: 100px;
 }
 #flex{
@@ -237,14 +237,14 @@ content: none;
 #cont7{
     display: flex;
     width:80%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height:auto;
     text-align: left;
     margin: auto;
 }
 #cont7>div{
     width:50%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
    
 }
 #im{
@@ -275,7 +275,7 @@ content: none;
 #cont8{
     width:100%;
     height: 500px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-color: rgba(0, 132, 255, 0.877);;
 align-items: center;
 }
@@ -335,7 +335,7 @@ font-size: larger;
 }
 #spn{
     width:80%;
-    border:1px solid red;
+    /* border:1px solid red; */
     display: flex;
     margin: auto;
 }
