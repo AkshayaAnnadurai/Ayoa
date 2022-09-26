@@ -1,6 +1,7 @@
 # Ayoa clone
 ---
-
+The world’s only
+mind maps with AI
 ---
 # Welcome :wave:
 ---
